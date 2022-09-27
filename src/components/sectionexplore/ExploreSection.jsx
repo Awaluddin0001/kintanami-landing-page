@@ -1,11 +1,6 @@
 import "./ExploreSection.scss";
 
 function ExploreSection() {
-  const expLink = document.querySelector(".explore__link");
-  expLink.addEventListener("click", (e) => {
-    e.preventDefault();
-  });
-
   return (
     <section className="explore" id="about">
       <div className="cont">
