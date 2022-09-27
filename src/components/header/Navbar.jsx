@@ -10,10 +10,10 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <img src={Logo} alt="awal logo" className="navbar__logo"/>
+          <img src={Logo} alt="awal logo" className="navbar__logo" />
         </li>
         <li>
-          <a href="" className="navbar__link">
+          <a href="#journal" className="navbar__link">
             Journal
           </a>
         </li>
