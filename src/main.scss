@@ -1,7 +1,7 @@
 :root {
   font-family: "Jost", sans-serif;
   // font-family: "Noto Serif", serif;
-  font-size: 16px;
+  font-size: 62.5%;
   line-height: 24px;
   font-weight: 400;
 
@@ -12,14 +12,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --color-white: #fff;
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 1.6rem;
+  scroll-behavior: smooth;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Serif", serif;
 }

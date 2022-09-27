@@ -1,10 +1,10 @@
 import "./HeroSection.scss";
-import Navbar from "../header/Navbar";
 
 function HeroSection() {
   return (
     <section className="hero__section">
-      <Navbar />
+      <h1 className="hero__title">The Kintamani</h1>
+      <p className="hero__subtitle"><strong>Feel The Wonderfull Travel</strong></p>
     </section>
   );
 }

@@ -5,5 +5,22 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7rem;
+  }
+
+  &__title{
+    font-size: 12.8rem;
+    color: var(--color-white);
+    font-weight: 800;
+  }
+  &__subtitle{
+    font-size: 3.2rem;
+    color: var(--color-white);
+    font-weight: 600;
   }
 }
